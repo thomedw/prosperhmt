@@ -1,0 +1,1 @@
+alter table giro modify city varchar(255), modify accountNo varchar(255);

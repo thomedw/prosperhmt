@@ -1,0 +1,12 @@
+SET AUTOCOMMIT=0;
+begin;
+alter table flow add date datetime;
+update flow set date=(select date from opname where opname.id=flow.opname) where opname is not null and date is null;
+update flow set date=(select date from transfer where transfer.id=flow.transfer) where transfer is not null and date is null;
+update flow set date=(select date from purchase where purchase.id=flow.purchase) where purchase is not null and date is null;
+update flow set date=(select date from purchasereturn where purchasereturn.id=flow.purchasereturn) where purchasereturn is not null and date is null;
+update flow set date=(select date from sale where sale.id=flow.sale) where sale is not null and date is null;
+update flow set date=(select date from salereturn where salereturn.id=flow.salereturn) where salereturn is not null and date is null;
+create index flow_date_idx on flow(date);
+alter table flow modify date datetime not null;
+commit;
