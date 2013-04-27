@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="com.katalisindonesia.prosper.nbprosper/1">
-    <module_version install_time="1366874102163" last="true" origin="installer" specification_version="1.0.53">
+    <module_version install_time="1367044687007" last="true" origin="installer" specification_version="1.0.53">
         <file crc="2651768670" name="config/Modules/com-katalisindonesia-prosper-nbprosper.xml"/>
-        <file crc="3879235820" name="modules/com-katalisindonesia-prosper-nbprosper.jar"/>
+        <file crc="1534131926" name="modules/com-katalisindonesia-prosper-nbprosper.jar"/>
     </module_version>
 </module>
