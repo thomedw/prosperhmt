@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="com.katalisindonesia.prosper">
-    <module_version install_time="1385195950139" last="true" origin="installer" specification_version="1.0.55">
+    <module_version install_time="1386669040066" last="true" origin="installer" specification_version="1.0.55">
         <file crc="4044532399" name="config/Modules/com-katalisindonesia-prosper.xml"/>
-        <file crc="2861286473" name="modules/com-katalisindonesia-prosper.jar"/>
+        <file crc="2363468566" name="modules/com-katalisindonesia-prosper.jar"/>
         <file crc="3770482786" name="modules/ext/activation.jar"/>
         <file crc="1808028196" name="modules/ext/jasperreports-fonts.jar"/>
-        <file crc="371063999" name="modules/ext/lib.jar"/>
+        <file crc="975642386" name="modules/ext/lib.jar"/>
         <file crc="3906399546" name="modules/ext/mail.jar"/>
-        <file crc="1363988834" name="modules/ext/principal.jar"/>
+        <file crc="3691350487" name="modules/ext/principal.jar"/>
         <file crc="3367088967" name="modules/ext/xercesImpl-2.6.2.jar"/>
     </module_version>
 </module>
