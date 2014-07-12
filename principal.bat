@@ -1,4 +1,4 @@
-del /f .git/*.lock
+del /f .git\*.lock
 git remote set-url origin git://github.com/thomedw/prosperhmt.git
 git reset --hard
 git pull
